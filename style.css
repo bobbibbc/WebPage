@@ -1,0 +1,71 @@
+h1{
+    color:#ffffff;
+}
+/*{
+    border:solid
+}*/
+
+body{
+    background-image:url("Images/GreyTexture.jpeg");
+}
+
+.header{
+    background-color:rgb(40, 40, 40);
+    display:flex;
+    justify-content : space-between;
+    border:solid
+}
+
+.menu{
+    margin-left: 30px;
+    padding: 30px;
+    
+}
+
+.item{
+    position: relative;
+    
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity:0.3
+}
+
+a:link{
+    color:dodgerblue;
+}
+
+a:visited{
+    color:blue
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color:rgb(40, 40, 40);
+    display:flex;
+    justify-content: flex-end;
+    border:solid
+}
+
+p,h2{
+    text-align: center;
+    font-family:"calibri";
+    font-style:normal;
+}
